@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "start": "concurrently \"npm run backend\" \"npm run frontend\"",
-    "frontend": "cd frontend && npm run dev",  // 切换到 frontend 目录并启动前端
+    "frontend": "cd frontend && npm run dev ",  // 切换到 frontend 目录并启动前端
     "backend": "cd backend && npm run start"  // 切换到 backend 目录并启动后端
   },
   "keywords": ["pnpm","npm", "yarn", "pakage.json", "package-manager"],
